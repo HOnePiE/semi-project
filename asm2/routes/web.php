@@ -34,17 +34,17 @@ Route::get('/draft', [draftControler::class,'show']);
 Route::group(['middleware' => 'auth.check'], function () {
     // Route need to check login
 });
-// Login
+// Sign in
 
 Route::get('/login', [AuthController::class,'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class,'signin'])->name('signinpost');
 
 //---------------------------------------------------------------------------------------------------------//
-// Đăng kí
+// Sign up
 Route::get('/register', [AuthController::class,'showRegistrationForm'])->name('register');
 Route::post('/register', [AuthController::class,'signup'])->name('signuppost');
 
 //---------------------------------------------------------------------------------------------------------//
-// Đăng xuất
+// Sign out
 Route::delete('/logout', [AuthController::class, 'logout'])->name('logout');
 // route::get('/',[App\Admin\Controllers\AuthController::class])

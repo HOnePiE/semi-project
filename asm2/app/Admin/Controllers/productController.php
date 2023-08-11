@@ -37,7 +37,7 @@ class productController extends AdminController
         $grid->column('description', __('Description'));
         $grid->column('created_at', __('Created at'));
         $grid->column('updated_at', __('Updated at'));
-        $grid->fixColumns(3, -2);
+        $grid->fixColumns(4, -2);
 
         return $grid;
     }

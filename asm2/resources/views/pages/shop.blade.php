@@ -103,7 +103,7 @@
                                 <div class="product-surf-info surf">
                                     <div class="men-pro-item">
                                         <div class="men-thumb-item">
-                                            <img src="{{ asset('uploads/'.$item->image) }}" alt="">
+                                            <img src="{{ asset('uploads/' . $item->image) }}" alt="">
                                             <div class="men-cart-pro">
                                                 <div class="inner-men-cart-pro">
                                                     <a href="{{ route('single') }}" class="link-product-add-cart">Quick
@@ -124,7 +124,7 @@
                                                         <div class="grid-price ">
                                                             <span class="money ">
                                                                 {{-- $675.00  --}}
-                                                                {{ $item->price }}</span>
+                                                                ${{ $item->price }}</span>
                                                         </div>
                                                     </div>
                                                     <ul class="stars">

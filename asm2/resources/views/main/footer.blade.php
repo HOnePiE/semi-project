@@ -40,7 +40,7 @@
 				<div class="clearfix"> </div>
 			</div>
 			<div class="copy_right">
-				<p>© 2018 Surf Inn. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>© 2023 SunnyBee. All rights reserved | Design by <a href="http://Tuan95vn.com/">Pham Anh Tuan</a></p>
 			</div>
 		</div>
 	</div>
