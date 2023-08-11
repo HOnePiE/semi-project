@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\draftControler;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\cartController;
 use App\Http\Controllers\homeController;
 
 /*
@@ -48,3 +49,10 @@ Route::post('/register', [AuthController::class,'signup'])->name('signuppost');
 // Sign out
 Route::delete('/logout', [AuthController::class, 'logout'])->name('logout');
 // route::get('/',[App\Admin\Controllers\AuthController::class])
+
+//addCart
+Route::get('/addCart/{productId}',[cartController::class,'addToCart'])->name('addCart');
+//deleteCart
+Route::get('/removeCart/{productId}',[cartController::class,'removeFromCart'])->name('deleteCart');
+//updateCart
+Route::put('/updateCart/{productId}',[cartController::class,'updateCart'])->name('updateCart');

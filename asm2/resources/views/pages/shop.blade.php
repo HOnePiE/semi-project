@@ -141,7 +141,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="surf single-item hvr-outline-out">
-                                                    <form action="/model/addcart.php" method="post">
+                                                    {{-- <form action="/model/addcart.php" method="post">
                                                         <input type="hidden" name="cmd" value="_cart">
                                                         <input type="hidden" name="add" value="1">
                                                         <input type="hidden" name="surf_item" value="Jacket Canoeing">
@@ -151,8 +151,12 @@
                                                                 aria-hidden="true"></i></button>
 
                                                         <!-- <a href="#" data-toggle="modal" data-target="#myModal1"></a> -->
-                                                    </form>
-
+                                                    </form> --}}
+													<button type="submit" name="addtocart" class="surf-cart psurf-cart"
+													value="addtocart"><i class="fa fa-cart-plus"
+														aria-hidden="true"></i>
+													<a href="{{asset('addCart', ['productId'=>$product->id])}}"></a>
+													</button>
                                                 </div>
                                             </div>
                                             <div class="clearfix"></div>
