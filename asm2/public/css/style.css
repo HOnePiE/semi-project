@@ -357,7 +357,7 @@ nav#cl-effect-15 ul>li.active>a {
 }
 
 .carousel .item {
-    background: url(../images/banner1.jpg)no-repeat 0px 0px;
+    background: url(/asm2/public/uploads/images/banner1.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -366,7 +366,7 @@ nav#cl-effect-15 ul>li.active>a {
 }
 
 .carousel .item.item2 {
-    background: url(../images/banner2.jpg)no-repeat 0px 0px;
+    background: url(/asm2/public/uploads/images/banner2.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -375,7 +375,7 @@ nav#cl-effect-15 ul>li.active>a {
 }
 
 .carousel .item.item3 {
-    background: url(../images/banner3.jpg)no-repeat 0px 0px;
+    background: url(/asm2/public/uploads/images/banner3.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -384,7 +384,7 @@ nav#cl-effect-15 ul>li.active>a {
 }
 
 .carousel .item.item4 {
-    background: url(../images/banner4.jpg)no-repeat 0px 0px;
+    background: url(/asm2/public/uploads/images/banner4.jpg)no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1671,7 +1671,7 @@ input#datepicker {
 /*-- //Popup-Box --*/
 
 .banner_inner {
-    background: url(../images/banner4.jpg)no-repeat 0px -117px;
+    background: url(/asm2/public/uploads/images/banner1.jpg)no-repeat 0px -117px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;

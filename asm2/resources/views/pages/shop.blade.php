@@ -87,11 +87,11 @@
             <div class="left-ads-display col-md-9">
                 <div class="wrapper_top_shop">
                     <div class="col-md-6 shop_left">
-                        <img src="/images/banner3.jpg" alt="">
+                        <img src="{{asset('uploads/images/banner3.jpg')}}" alt="">
                         <h6>40% off</h6>
                     </div>
                     <div class="col-md-6 shop_right">
-                        <img src="/images/banner2.jpg" alt="">
+                        <img src="{{asset('uploads/images/banner2.jpg')}}" alt="">
                         <h6>50% off</h6>
                     </div>
                     <div class="clearfix"></div>
@@ -141,7 +141,7 @@
                                                     </ul>
                                                 </div>
                                                 <div class="surf single-item hvr-outline-out">
-                                                    {{-- <form action="/model/addcart.php" method="post">
+                                                    <form action="/model/addcart.php" method="post">
                                                         <input type="hidden" name="cmd" value="_cart">
                                                         <input type="hidden" name="add" value="1">
                                                         <input type="hidden" name="surf_item" value="Jacket Canoeing">
@@ -151,12 +151,12 @@
                                                                 aria-hidden="true"></i></button>
 
                                                         <!-- <a href="#" data-toggle="modal" data-target="#myModal1"></a> -->
-                                                    </form> --}}
-													<button type="submit" name="addtocart" class="surf-cart psurf-cart"
+                                                    </form>
+													{{-- <button type="submit" name="addtocart" class="surf-cart psurf-cart"
 													value="addtocart"><i class="fa fa-cart-plus"
 														aria-hidden="true"></i>
 													<a href="{{asset('addCart', ['productId'=>$product->id])}}"></a>
-													</button>
+													</button> --}}
                                                 </div>
                                             </div>
                                             <div class="clearfix"></div>
@@ -569,11 +569,11 @@
 
                     <!-- //product-sec1 -->
                     <div class="col-md-6 shop_left shp">
-                        <img src="/images/banner4.jpg" alt="">
+                        <img src="{{asset('uploads/images/banner4.jpg')}}" alt="">
                         <h6>21% off</h6>
                     </div>
                     <div class="col-md-6 shop_right shp">
-                        <img src="/images/banner1.jpg" alt="">
+                        <img src="{{asset('uploads/images/banner1.jpg')}}" alt="">
                         <h6>31% off</h6>
                     </div>
                     <div class="clearfix"></div>

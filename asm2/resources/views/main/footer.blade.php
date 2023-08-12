@@ -5,8 +5,10 @@
 			<div class="footer-grid-wthree-agiles">
 				<div class="col-md-5 footer-grid-wthree-agile">
 					<h3>About us</h3>
-					<p>Lorem ipsum dolor sit consectetur elit. Nam eget egestas erat. In hachabi tasse platea dictumst. hachabi tasse platea
-						dictumst
+					<p>Welcome to SunnyBee Surf Shop, where the sun-kissed waves beckon you to an incredible surfing experience! 
+						We are thrilled to be your go-to destination for all things surf-related. 
+						Whether you're a seasoned surfer seeking the perfect board or a beginner eager to catch your first wave, 
+						our shop is brimming with high-quality surf stuffs to elevate your ocean adventures.
 					</p>
 					<p>Lorem ipsum dolor sit consectetur elit. Nam eget egestas erat. In hachabi tasse platea dictumst.</p>
 					<ul class="footer_list_icons">

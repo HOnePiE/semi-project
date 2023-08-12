@@ -14,12 +14,12 @@ Home Page
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <div class="container">
-                    <div class="carousel-caption">
+                <img style="position: absolute" src="{{asset('uploads/images/banner1.jpg')}}" alt="">
+                <div style="position: relative" class="container">
+                    <div style="" class="carousel-caption">
                         <h3>Surfing is a <span>real life</span></h3>
                         <h4>Sea Sand & Surf</h4>
                         <p>Add Some Description</p>
-
                     </div>
                 </div>
             </div>
@@ -65,65 +65,7 @@ Home Page
     <!--//banner -->
     <!--//banner -->
 
-    <!-- Modal1 -->
-    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                    <div class="signin-form profile">
-                        <h3 class="sign">Sign In</h3>
-                        <div class="login-form">
-                            <form action="#" method="post">
-                                <input type="email" name="email" placeholder="E-mail" required="">
-                                <input type="password" name="password" placeholder="Password" required="">
-                                <div class="tp">
-                                    <input type="submit" value="Sign In">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="login-social-grids">
-                            <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                            </ul>
-                        </div>
-                        <p><a href="#" data-toggle="modal" data-target="#myModal3"> Don't have an account?</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //Modal1 -->
-    <!-- Modal2 -->
-    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-
-                    <div class="signin-form profile">
-                        <h3 class="sign">Sign Up</h3>
-                        <div class="login-form">
-                            <form action="#" method="post">
-                                <input type="text" name="name" placeholder="Username" required="">
-                                <input type="email" name="email" placeholder="Email" required="">
-                                <input type="password" name="password" placeholder="Password" required="">
-                                <input type="password" name="password" placeholder="Confirm Password" required="">
-                                <input type="submit" value="Sign Up">
-                            </form>
-                        </div>
-                        <p><a href="#"> By clicking Sign up, I agree to your terms</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- //Modal2 -->
+    
     </div>
     <!--// header_top -->
     <!--about-->
@@ -141,6 +83,7 @@ Home Page
             </div>
             <div class="about-main">
                 <div class="col-md-6 about-left">
+                    <img style="width: 100%"src="{{asset('uploads/images/ab.jpg')}}" alt="">
                 </div>
 
                 <div class="col-md-6 about-right">
@@ -168,6 +111,7 @@ Home Page
 
                 </div>
                 <div class="col-md-6 about-left two">
+                    <img style="width: 100%" src="{{asset('uploads/images/ab1.jpg')}}" alt="">
                 </div>
 
                 <div class="clearfix"> </div>
@@ -215,16 +159,16 @@ Home Page
             <div class="inner_sec_info_w3ls_agile">
                 <div class="col-md-6 portfolio-grids_left">
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g1.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g1.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g1.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g1.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g2.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g2.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g2.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g2.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
 
@@ -232,8 +176,8 @@ Home Page
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g3.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g3.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g3.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g3.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
 
@@ -242,8 +186,8 @@ Home Page
                     </div>
                 </div>
                 <div class="col-md-6 portfolio-grids sec_img" data-aos="zoom-in">
-                    <a href="/images/g10.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                        <img src="/images/g10.jpg" class="img-responsive" alt=" " />
+                    <a href="{{asset('uploads/images/g10.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                        <img src="{{asset('uploads/images/g10.jpg')}}" class="img-responsive" alt=" " />
                         <div class="b-wrapper">
                             <h4>Surf Inn</h4>
 
@@ -251,8 +195,8 @@ Home Page
                     </a>
                 </div>
                 <div class="col-md-6 portfolio-grids sec_img" data-aos="zoom-in">
-                    <a href="/images/g11.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                        <img src="/images/g11.jpg" class="img-responsive" alt=" " />
+                    <a href="{{asset('uploads/images/g11.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                        <img src="{{asset('uploads/images/g11.jpg')}}" class="img-responsive" alt=" " />
                         <div class="b-wrapper">
                             <h4>Surf Inn</h4>
 
@@ -261,8 +205,8 @@ Home Page
                 </div>
                 <div class="col-md-6 portfolio-grids_left">
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g5.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g5.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g5.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g5.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
 
@@ -270,16 +214,16 @@ Home Page
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g4.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g4.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g4.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g4.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
                             </div>
                         </a>
                     </div>
                     <div class="col-md-6 portfolio-grids" data-aos="zoom-in">
-                        <a href="/images/g6.jpg" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
-                            <img src="/images/g6.jpg" class="img-responsive" alt=" " />
+                        <a href="{{asset('uploads/images/g6.jpg')}}" class="b-link-stripe b-animate-go lightninBox" data-lb-group="1">
+                            <img src="{{asset('uploads/images/g6.jpg')}}" class="img-responsive" alt=" " />
                             <div class="b-wrapper">
                                 <h4>Surf Inn</h4>
 
@@ -364,7 +308,7 @@ Home Page
     </div> --}}
     <!-- Popup-Box -->
     <!-- Modal2 -->
-    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
+    {{-- <div class="modal fade" id="myModal4" tabindex="-1" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
@@ -401,7 +345,7 @@ Home Page
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- //Popup-Box -->
 
     <!--// pricing-->
@@ -424,7 +368,7 @@ Home Page
                             <div class="item active">
 
                                 <div class="inner-testimonials">
-                                    <img src="/images/1.jpg" alt=" " class="img-responsive" />
+                                    <img src="{{asset('uploads/images/1.jpg')}}" alt=" " class="img-responsive" />
                                     <div class="teastmonial-info">
                                         <h5>Andy Wovel</h5>
                                         <span>Lorem Ipsum</span>
@@ -437,7 +381,7 @@ Home Page
                             <div class="item">
 
                                 <div class="inner-testimonials">
-                                    <img src="/images/2.jpg" alt=" " class="img-responsive" />
+                                    <img src="{{asset('uploads/images/2.jpg')}}" alt=" " class="img-responsive" />
                                     <div class="teastmonial-info">
                                         <h5>Bernard Russo</h5>
                                         <span>Lorem Ipsum</span>
@@ -450,7 +394,7 @@ Home Page
                             <div class="item">
 
                                 <div class="inner-testimonials">
-                                    <img src="/images/3.jpg" alt=" " class="img-responsive" />
+                                    <img src="{{asset('uploads/images/3.jpg')}}" alt=" " class="img-responsive" />
                                     <div class="teastmonial-info">
                                         <h5>Alex Merphy</h5>
                                         <span>Lorem Ipsum</span>
